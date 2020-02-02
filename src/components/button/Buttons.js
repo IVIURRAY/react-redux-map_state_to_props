@@ -8,18 +8,9 @@ const Buttons = props => {
 
     return (
         <div className="buttonsContainer">
-            <MyButton 
-                text='-1'
-                onClick={minusToCount}
-            />
-            <MyButton 
-                text='Reset'
-                onClick={resetCount}
-            />
-            <MyButton
-                text='+1'
-                onClick={addToCount}
-            />
+            <MyButton text='-1' onClick={minusToCount} />
+            <MyButton text='Reset' onClick={resetCount} />
+            <MyButton text='+1' onClick={addToCount} />
         </div>
     )
 }

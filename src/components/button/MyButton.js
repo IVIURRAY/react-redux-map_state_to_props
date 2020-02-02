@@ -6,10 +6,7 @@ const MyButton = props => {
     const {text, onClick} = props;
 
     return (
-        <Button 
-            onClick={onClick}
-            type='primary'
-        >
+        <Button onClick={onClick} type='primary'>
             {text}
         </Button>
     )
